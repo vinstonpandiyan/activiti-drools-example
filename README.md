@@ -1,6 +1,7 @@
 # spring-boot-with-activiti-drools-example
 Spring-boot integration with Activiti,Drools example.
 
+[![Build Status](https://travis-ci.org/vinstonpandiyan/activiti-drools-example.svg?branch=master)](https://travis-ci.org/vinstonpandiyan/activiti-drools-example.svg?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/052c959cb6ee407586280f7b01c04b09)](https://www.codacy.com/app/vinstonpandiyan/activiti-drools-example?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vinstonpandiyan/activiti-drools-example&amp;utm_campaign=Badge_Grade) [![DockerHub](https://img.shields.io/badge/docker-available-blue.svg)](https://hub.docker.com/u/vinston/)
 
 # Tutorial: 
 
