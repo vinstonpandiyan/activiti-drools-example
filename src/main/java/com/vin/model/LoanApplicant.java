@@ -3,8 +3,15 @@ package com.vin.model;
 import java.io.Serializable;
 
 public class LoanApplicant implements Serializable {
+	
 	private static final long serialVersionUID = 1L;
 	private long income;
+	private String name;
+	private long loanAmount;
+	private boolean checkCreditOk;
+	
+	public LoanApplicant() {
+	}
 
 	public long getIncome() {
 		return income;
@@ -14,8 +21,6 @@ public class LoanApplicant implements Serializable {
 		this.income = income;
 	}
 
-	private String name;
-
 	public String getName() {
 		return name;
 	}
@@ -24,8 +29,6 @@ public class LoanApplicant implements Serializable {
 		this.name = name;
 	}
 
-	private long loanAmount;
-
 	public long getLoanAmount() {
 		return loanAmount;
 	}
@@ -33,8 +36,6 @@ public class LoanApplicant implements Serializable {
 	public void setLoanAmount(long loanAmount) {
 		this.loanAmount = loanAmount;
 	}
-
-	private boolean checkCreditOk;
 
 	public boolean isCheckCreditOk() {
 		return checkCreditOk;
